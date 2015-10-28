@@ -20,7 +20,12 @@
             "shortTitle": {
                 "en": "Principle of complete mediation"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "Build Security In, USA Homeland Security: Complete Mediation",
+                    "url": "https://buildsecurityin.us-cert.gov/articles/knowledge/principles/complete-mediation"
+                }
+            ]
         },
         {
             "chapterNr": "2",
@@ -36,7 +41,12 @@
             "shortTitle": {
                 "en": "Server side enforcement"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "CWE-603: Use of Client-Side Authentication",
+                    "url": "http://cwe.mitre.org/data/definitions/603.html"
+                }
+            ]
         },
         {
             "chapterNr": "2",
@@ -52,7 +62,16 @@
             "shortTitle": {
                 "en": "Fails securely"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "Implement Authentication Controls to Fail Securely",
+                    "url": "http://web.securityinnovation.com/appsec-weekly/blog/bid/89727/Implement-Authentication-Controls-to-Fail-Securely"
+                },
+                {
+                    "name": "Fail-Open Authentication",
+                    "url": "http://resources.infosecinstitute.com/fail-open-authentication/"
+                }
+            ]
         },
         {
             "chapterNr": "2",
@@ -98,9 +117,18 @@
             "chapterNr": "2",
             "nr": "16",
             "shortTitle": {
-                "en": "Stronly encrypted transport"
+                "en": "Strongly encrypted transport"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP Authentication Cheat Sheet: Transmit Passwords Only Over TLS",
+                    "url": "https://www.ssllabs.com/ssltest/"
+                },
+                {
+                    "name": "SSL Server Test by Qualys",
+                    "url": "https://www.ssllabs.com/ssltest/"
+                }
+            ]
         },
         {
             "chapterNr": "2",
@@ -108,7 +136,12 @@
             "shortTitle": {
                 "en": "No clear text passwords"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "Security Stackexchange: Forgotten password or reset link, which is more secure to email",
+                    "url": "http://security.stackexchange.com/questions/13026/forgotten-password-or-reset-link-which-is-more-secure-to-email"
+                }
+            ]
         },
         {
             "chapterNr": "2",
@@ -116,7 +149,16 @@
             "shortTitle": {
                 "en": "No username enumeration"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Testing for User Enumeration and Guessable User Account (OWASP-AT-002)",
+                    "url": "https://www.owasp.org/index.php/Testing_for_User_Enumeration_and_Guessable_User_Account_(OWASP-AT-002)"
+                },
+                {
+                    "name": "Security Stackexchange: user name enumeration",
+                    "url": "http://security.stackexchange.com/questions/42872/user-name-enumeration"
+                }
+            ]
         },
         {
             "chapterNr": "2",
@@ -188,7 +230,12 @@
             "shortTitle": {
                 "en": "Uses default session management"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Session Management: Use Only the Framework's Session Manager",
+                    "url": "https://www.owasp.org/index.php/Session_Management#Use_Only_the_Framework.27s_Session_Manager"
+                }
+            ]
         },
         {
             "chapterNr": "3",
@@ -204,7 +251,12 @@
             "shortTitle": {
                 "en": "Session times out after inactivity"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP Session Management Cheat Sheet: Idle Timeout",
+                    "url": "https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Idle_Timeout"
+                }
+            ]
         },
         {
             "chapterNr": "3",
@@ -212,7 +264,12 @@
             "shortTitle": {
                 "en": "Session has absolute timeout"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Testing for Logout and Browser Cache Management (OWASP-AT-007)",
+                    "url": "https://www.owasp.org/index.php/Testing_for_Logout_and_Browser_Cache_Management_(OWASP-AT-007)"
+                }
+            ]
         },
         {
             "chapterNr": "3",
@@ -276,7 +333,12 @@
             "shortTitle": {
                 "en": "Authenticated session tokens are protected with HTTP"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: HTTPOnly",
+                    "url": "https://www.owasp.org/index.php/HttpOnly"
+                }
+            ]
         },
         {
             "chapterNr": "3",
@@ -284,7 +346,20 @@
             "shortTitle": {
                 "en": "Only Authenticated session tokens are protected with Secure and HSTS"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "Can I use Strict Transport Security?",
+                    "url": "http://caniuse.com/stricttransportsecurity"
+                },
+                {
+                    "name": "OWASP: Secure Flag",
+                    "url": "https://www.owasp.org/index.php/SecureFlag"
+                },
+                {
+                    "name": "OWASP: HTTP Strict Transport Security",
+                    "url": "https://www.owasp.org/index.php/HTTP_Strict_Transport_Security"
+                }
+            ]
         },
         {
             "chapterNr": "3",
@@ -300,7 +375,20 @@
             "shortTitle": {
                 "en": "Authorisation of functions and services"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Testing for Authorization",
+                    "url": "https://www.owasp.org/index.php/Testing_for_Authorization"
+                },
+                {
+                    "name": "IBM® Cognos® 8 Administration and Security Guide 8.4.0: Secured Functions and Features",
+                    "url": "http://publib.boulder.ibm.com/infocenter/c8bi/v8r4m0/index.jsp?topic=/com.ibm.swg.im.cognos.ug_cra.8.4.0.doc/ug_cra_id11791ReportNetSecuredFunctionsandFeatures.html"
+                },
+                {
+                    "name": "OWASP: Threat Risk Modeling",
+                    "url": "https://www.owasp.org/index.php/Threat_Risk_Modeling"
+                }
+            ]
         },
         {
             "chapterNr": "4",
@@ -324,7 +412,20 @@
             "shortTitle": {
                 "en": "Authorisation of direct object references"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Top 10 2013-A4-Insecure Direct Object References",
+                    "url": "https://www.owasp.org/index.php/Top_10_2013-A4-Insecure_Direct_Object_References"
+                },
+                {
+                    "name": "OWASP: Top 10 2010-A4-Insecure Direct Object References",
+                    "url": "https://www.owasp.org/index.php/Top_10_2010-A4-Insecure_Direct_Object_References"
+                },
+                {
+                    "name": "OWASP: Top 10 2007-Insecure Direct Object Reference",
+                    "url": "https://www.owasp.org/index.php/Top_10_2007-Insecure_Direct_Object_Reference"
+                }
+            ]
         },
         {
             "chapterNr": "4",
@@ -404,7 +505,16 @@
             "shortTitle": {
                 "en": "Buffer overflows"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Buffer Overflow",
+                    "url": "https://www.owasp.org/index.php/Buffer_Overflow"
+                },
+                {
+                    "name": "OWASP: Reviewing Code for Buffer Overruns and Overflows",
+                    "url": "https://www.owasp.org/index.php/Reviewing_Code_for_Buffer_Overruns_and_Overflows"
+                }
+            ]
         },
         {
             "chapterNr": "5",
@@ -588,7 +698,16 @@
             "shortTitle": {
                 "en": "Information leakage"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Information Leakage",
+                    "url": "https://www.owasp.org/index.php/Information_Leakage"
+                },
+                {
+                    "name": "WebAppSec.org: Information Leakage",
+                    "url": "http://projects.webappsec.org/w/page/13246936/Information%20Leakage"
+                }
+            ]
         },
         {
             "chapterNr": "8",
@@ -836,7 +955,16 @@
             "shortTitle": {
                 "en": "Only defined HTTP Request methods are accepted"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Test HTTP Methods (OTG-CONFIG-006): Arbitrary HTTP Methods",
+                    "url": "https://www.owasp.org/index.php/Testing_for_HTTP_Methods_and_XST_%28OWASP-CM-008%29#Arbitrary_HTTP_Methods"
+                },
+                {
+                    "name": "Security StackExchange: How to exploit HTTP Methods",
+                    "url": "http://security.stackexchange.com/a/21424/3206"
+                }
+            ]
         },
         {
             "chapterNr": "11",
@@ -844,7 +972,16 @@
             "shortTitle": {
                 "en": "Every HTTP Response contains a Content-Type header with safe character set"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "Rohit Raisinghani: How missing characterset can cause Security Vulnerability",
+                    "url": "http://rdraisinghani.wordpress.com/2011/12/18/how-missing-characterset-can-cause-security-vulnerability/"
+                },
+                {
+                    "name": "ha.ckers: Charset Vulnerabilities",
+                    "url": "http://ha.ckers.org/charsets.html"
+                }
+            ]
         },
         {
             "chapterNr": "11",
@@ -860,7 +997,12 @@
             "shortTitle": {
                 "en": "Protects against Click-Jacking"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Clickjacking",
+                    "url": "https://www.owasp.org/index.php/Clickjacking"
+                }
+            ]
         },
         {
             "chapterNr": "11",
@@ -1060,7 +1202,16 @@
             "shortTitle": {
                 "en": "Safe from unsafe redirects"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Unvalidated Redirects and Forwards Cheat Sheet",
+                    "url": "https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet"
+                },
+                {
+                    "name": "OWASP: Top 10 2010-A10-Unvalidated Redirects and Forwards",
+                    "url": "https://www.owasp.org/index.php/Top_10_2010-A10-Unvalidated_Redirects_and_Forwards"
+                }
+            ]
         },
         {
             "chapterNr": "16",
@@ -1068,7 +1219,12 @@
             "shortTitle": {
                 "en": "Safe from path traversal"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Category: Path Traversal Attack",
+                    "url": "https://www.owasp.org/index.php/Category:Path_Traversal_Attack"
+                }
+            ]
         },
         {
             "chapterNr": "16",
@@ -1076,7 +1232,12 @@
             "shortTitle": {
                 "en": "Anti-virus scanning"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: Unrestricted File Upload",
+                    "url": "https://www.owasp.org/index.php/Unrestricted_File_Upload"
+                }
+            ]
         },
         {
             "chapterNr": "16",
@@ -1092,7 +1253,20 @@
             "shortTitle": {
                 "en": "Safe from remote file inclusion attacks"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: OWASP Periodic Table of Vulnerabilities - Remote File Inclusion",
+                    "url": "https://www.owasp.org/index.php/OWASP_Periodic_Table_of_Vulnerabilities_-_Remote_File_Inclusion"
+                },
+                {
+                    "name": "OWASP: Canonicalization, locale and Unicode",
+                    "url": "https://www.owasp.org/index.php/Canonicalization,_locale_and_Unicode"
+                },
+                {
+                    "name": "Wikipedia: Canonicalization",
+                    "url": "http://en.wikipedia.org/wiki/Canonicalization"
+                }
+            ]
         },
         {
             "chapterNr": "16",
@@ -1100,7 +1274,12 @@
             "shortTitle": {
                 "en": "Resource sharing"
             },
-            "related": []
+            "related": [
+                {
+                    "name": "OWASP: HTML5 Security Cheat Sheet: Cross Origin Resource Sharing",
+                    "url": "https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet#Cross_Origin_Resource_Sharing"
+                }
+            ]
         },
         {
             "chapterNr": "16",
