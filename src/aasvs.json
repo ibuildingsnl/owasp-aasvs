@@ -1,4 +1,18 @@
 {
+    "helpTypes": {
+        "drupal7": {
+            "en": "Drupal 7"
+        },
+        "general": {
+            "en": "General"
+        },
+        "php": {
+            "en": "PHP"
+        },
+        "symfony2": {
+            "en": "Symfony 2"
+        }
+    },
     "requirements": [
         {
             "chapterNr": "2",
