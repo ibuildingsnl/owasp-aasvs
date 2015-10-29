@@ -1,0 +1,1 @@
+Sending sensitive data (like Personable Identifiable Information, Credit Card numbers, passwords / tokens) in the URL will lead to them being available in the browser history and in the logs by the application server and any potential intermediaries (proxies).
