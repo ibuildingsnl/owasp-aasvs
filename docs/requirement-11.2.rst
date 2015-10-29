@@ -8,24 +8,21 @@ Levels: 1, 2, 3
 General
 -------
 
-    | Arshan Dabirsiaghi (see links) discovered that many web
-    application frameworks allowed well chosen and/or arbitrary HTTP
-    methods to bypass an environment level access control check:
-    | Many frameworks and languages treat "HEAD" as a "GET" request,
-    albeit one without any body in the response. If a security
-    constraint was set on "GET" requests such that only
-    "authenticatedUsers" could access GET requests for a particular
-    servlet or resource, it would be bypassed for the "HEAD" version.
-    This allowed unauthorized blind submission of any privileged GET
-    request
-    | Some frameworks allowed arbitrary HTTP methods such as "JEFF" or
-    "CATS" to be used without limitation. These were treated as if a
-    "GET" method was issued, and again were found not to be subject to
-    method role based access control checks on a number of languages and
-    frameworks, again allowing unauthorized blind submission of
-    privileged GET requests.
-    | In many cases, code which explicitly checked for a "GET" or "POST"
-    method would be safe.
+    Arshan Dabirsiaghi (see links) discovered that many web application
+    frameworks allowed well chosen and/or arbitrary HTTP methods to
+    bypass an environment level access control check: Many frameworks
+    and languages treat "HEAD" as a "GET" request, albeit one without
+    any body in the response. If a security constraint was set on "GET"
+    requests such that only "authenticatedUsers" could access GET
+    requests for a particular servlet or resource, it would be bypassed
+    for the "HEAD" version. This allowed unauthorized blind submission
+    of any privileged GET request Some frameworks allowed arbitrary HTTP
+    methods such as "JEFF" or "CATS" to be used without limitation.
+    These were treated as if a "GET" method was issued, and again were
+    found not to be subject to method role based access control checks
+    on a number of languages and frameworks, again allowing unauthorized
+    blind submission of privileged GET requests. In many cases, code
+    which explicitly checked for a "GET" or "POST" method would be safe.
 
 -  `OWASP: Test HTTP Methods (OTG-CONFIG-006): Arbitrary HTTP
    Methods <https://www.owasp.org/index.php/Testing_for_HTTP_Methods_and_XST_%28OWASP-CM-008%29#Arbitrary_HTTP_Methods>`__

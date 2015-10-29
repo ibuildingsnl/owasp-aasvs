@@ -19,7 +19,5 @@ General
     also be used to maliciously craft a URL that would pass the
     application's access control check and then forward the attacker to
     privileged functions that they would normally not be able to access.
-
--  `OWASP: Unvalidated Redirects and Forwards Cheat
-   Sheet <https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet>`__
-
+    \* `OWASP: Unvalidated Redirects and Forwards Cheat
+    Sheet <https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet>`__

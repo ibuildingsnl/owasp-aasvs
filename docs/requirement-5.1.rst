@@ -14,11 +14,8 @@ General
     sequential section of memory allocated to contain anything from a
     character string to an array of integers. Writing outside the bounds
     of a block of allocated memory can corrupt data, crash the program,
-    or cause the execution of malicious code.
-
--  `OWASP: Buffer
-   Overflow <https://www.owasp.org/index.php/Buffer_Overflow>`__
-
+    or cause the execution of malicious code. \* `OWASP: Buffer
+    Overflow <https://www.owasp.org/index.php/Buffer_Overflow>`__
 
 
 PHP

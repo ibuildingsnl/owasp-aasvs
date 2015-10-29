@@ -23,9 +23,9 @@ General
 PHP
 ---
 
-| First grep the codebase for usage of
+First grep the codebase for usage of
 '`session\_set\_save\_handler <http://www.php.net/manual/en/function.session-set-save-handler.php>`__\ '.
-| Though (rarely) it's also possible that a developer could have
+Though (rarely) it's also possible that a developer could have
 implemented his own session mechanism without even using the default
 session functions. For this you'll have to look at each part of the
 application and how it stores and retrieves state across page requests.

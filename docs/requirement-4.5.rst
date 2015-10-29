@@ -8,12 +8,11 @@ Levels: 1, 2, 3
 Apache 2
 --------
 
-| See: `Apache wiki:
+See: `Apache wiki:
 DirectoryListings <http://wiki.apache.org/httpd/DirectoryListings>`__
-and
-| `documentation for
+and `documentation for
 mod\_autoindex <http://httpd.apache.org/docs/trunk/mod/mod_autoindex.html>`__.
-| Note that the application may have a .htaccess file instructing the
+Note that the application may have a .htaccess file instructing the
 webserver to turn on or of 'Indexes'.
 
 
