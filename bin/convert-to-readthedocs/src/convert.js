@@ -43,9 +43,8 @@ Levels: ${requirement.levels.join(", ")}
     let helpFilesDir = `${__dirname}/../../../src/help/${requirement.chapterNr}/${requirement.nr}/${lang}/`;
     fs.readdir(helpFilesDir, function (err, files) {
         if (err) {
-            return;
+            files = [];
         }
-
         Promise.all(files.map(function(file) {
             return new Promise(function(resolve, reject) {
                 fs.readFile(helpFilesDir + file, function(err, result) {
@@ -85,20 +84,22 @@ ${result}`;
             });
         });
     });
+});
 
-    // build chapter indexes
-    for (let chapterNr in asvs.chapters) {
-        let chapterName = asvs.chapters[chapterNr].name[lang];
 
-        let fileNames = asvs.requirements.reduce(function(fileNames, requirement) {
-            if (requirement.chapterNr !== chapterNr) {
-                return fileNames;
-            }
-            fileNames[fileNames.length] = 'requirement-' + chapterNr + '.' + requirement.nr;
+// build chapter indexes
+for (let chapterNr in asvs.chapters) {
+    let chapterName = asvs.chapters[chapterNr].name[lang];
+
+    let fileNames = asvs.requirements.reduce(function(fileNames, requirement) {
+        if (requirement.chapterNr !== chapterNr) {
             return fileNames;
-        }, []);
+        }
+        fileNames[fileNames.length] = 'requirement-' + chapterNr + '.' + requirement.nr;
+        return fileNames;
+    }, []);
 
-        let chapterDoc = `v${chapterNr} ${chapterName}
+    let chapterDoc = `v${chapterNr} ${chapterName}
 =${"=".repeat(chapterNr.length)}=${"=".repeat(chapterName.length)}
 
 .. toctree::
@@ -108,25 +109,25 @@ ${result}`;
   ${fileNames.join("\n  ")}
 `;
 
-        let chapterFilePath = DOC_DIR + 'v' + chapterNr + '.rst';
-        fs.writeFile(chapterFilePath, chapterDoc);
-        console.log('Wrote ' + chapterFilePath);
-    }
+    let chapterFilePath = DOC_DIR + 'v' + chapterNr + '.rst';
+    fs.writeFile(chapterFilePath, chapterDoc);
+    console.log('Wrote ' + chapterFilePath);
+}
 
 
-    // build level indexes
-    for (let levelNr in asvs.levelNames) {
-        let levelName = asvs.levelNames[levelNr][lang];
+// build level indexes
+for (let levelNr in asvs.levelNames) {
+    let levelName = asvs.levelNames[levelNr][lang];
 
-        let fileNames = asvs.requirements.reduce(function(fileNames, requirement) {
-            if (!requirement.levels.includes(+levelNr)) {
-                return fileNames;
-            }
-            fileNames[fileNames.length] = 'requirement-' + requirement.chapterNr + '.' + requirement.nr;
+    let fileNames = asvs.requirements.reduce(function(fileNames, requirement) {
+        if (!requirement.levels.includes(+levelNr)) {
             return fileNames;
-        }, []);
+        }
+        fileNames[fileNames.length] = 'requirement-' + requirement.chapterNr + '.' + requirement.nr;
+        return fileNames;
+    }, []);
 
-        let levelDoc = `Level ${levelNr}: ${levelName}
+    let levelDoc = `Level ${levelNr}: ${levelName}
 ======${"=".repeat(levelNr.length)}==${"=".repeat(levelName.length)}
 
 .. toctree::
@@ -136,8 +137,7 @@ ${result}`;
   ${fileNames.join("\n  ")}
 `;
 
-        let levelFilePath = DOC_DIR + 'level' + levelNr + '.rst';
-        fs.writeFile(levelFilePath, levelDoc);
-        console.log('Wrote ' + levelFilePath);
-    }
-});
+    let levelFilePath = DOC_DIR + 'level' + levelNr + '.rst';
+    fs.writeFile(levelFilePath, levelDoc);
+    console.log('Wrote ' + levelFilePath);
+}
