@@ -1,0 +1,7 @@
+17.5 App does not have Secret credentials hard-coded in executable
+==================================================================
+
+Verify that the mobile app prevents leaking of sensitive information (for example, screenshots are saved of the current application as the application is backgrounded or writing sensitive information in console) .
+
+Levels: 2, 3
+
