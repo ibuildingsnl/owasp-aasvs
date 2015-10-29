@@ -1,15 +1,18 @@
 {
     "helpTypes": {
-        "drupal7": {
+        "apache2.md": {
+            "en": "Apache 2"
+        },
+        "drupal7.md": {
             "en": "Drupal 7"
         },
-        "general": {
+        "general.md": {
             "en": "General"
         },
-        "php": {
+        "php.md": {
             "en": "PHP"
         },
-        "symfony2": {
+        "symfony2.md": {
             "en": "Symfony 2"
         }
     },
