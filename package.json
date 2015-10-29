@@ -1,7 +1,7 @@
 {
     "name": "owasp-aasvs",
-    "version": "2.0.0",
-    "description": "OWASP Annotated ASVS 2 data",
+    "version": "3.0.0",
+    "description": "OWASP Annotated ASVS 3 data",
     "main": "src/aasvs.json",
     "repository": {
         "type": "git",
