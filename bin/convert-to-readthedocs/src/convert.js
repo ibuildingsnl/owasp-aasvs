@@ -64,7 +64,7 @@ ${result}`;
         })).then(function(helpTextsInMdFormat) {
             return Promise.all(helpTextsInMdFormat.map(function(helpTextInMdFormat) {
                 return new Promise(function(resolve, reject) {
-                    pdc(helpTextInMdFormat, 'markdown_github', 'rst', function(err, result) {
+                    pdc(helpTextInMdFormat, 'markdown', 'rst', function(err, result) {
                         if (err) {
                             reject(err);
                         }
