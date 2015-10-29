@@ -15,6 +15,19 @@
     },
     "requirements": [
         {
+            "chapterNr": "1",
+            "nr": "1",
+            "shortTitle": {
+                "en": "All components are identified"
+            },
+            "related": [
+                {
+                    "name": "OWASP: Top 10 2013-A9-Using Components with Known Vulnerabilities",
+                    "url": "https://www.owasp.org/index.php/Top_10_2013-A9-Using_Components_with_Known_Vulnerabilities"
+                }
+            ]
+        },
+        {
             "chapterNr": "2",
             "nr": "1",
             "shortTitle": {
