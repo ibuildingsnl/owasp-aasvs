@@ -1,5 +1,5 @@
-11.2 Only defined HTTP Request methods are accepted
-===================================================
+11.2 Every HTTP Response contains a Content-Type header with safe character set
+===============================================================================
 
 Verify that every HTTP response contains a content type header specifying a safe character set (e.g., UTF-8, ISO 8859-1).
 

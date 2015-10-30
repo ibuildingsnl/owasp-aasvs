@@ -1,0 +1,7 @@
+19.9 Security flags are enabled
+===============================
+
+Ensure that build processes for system level languages have all security flags enabled, such as ASLR, DEP, and security checks.
+
+Levels: 3
+

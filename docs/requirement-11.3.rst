@@ -1,5 +1,5 @@
-11.3 Every HTTP Response contains a Content-Type header with safe character set
-===============================================================================
+11.3 Trusted HTTP headers are authenticated
+===========================================
 
 Verify that HTTP headers added by a trusted proxy or SSO devices, such as a bearer token, are authenticated by the application.
 

@@ -1,5 +1,5 @@
-11.8 Protects against Click-Jacking
-===================================
+11.8 X-XSS-Protection is used correctly
+=======================================
 
 Verify that the X-XSS-Protection: 1; mode=block header is in place.
 
