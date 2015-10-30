@@ -758,7 +758,7 @@
             "chapterNr": "5",
             "nr": "20",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Structured data is strongly typed and validated with a schema"
             },
             "related": []
         },
@@ -766,7 +766,7 @@
             "chapterNr": "5",
             "nr": "21",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Unstructured data is sanitized"
             },
             "related": []
         },
@@ -774,7 +774,7 @@
             "chapterNr": "5",
             "nr": "22",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Untrusted HTML is sanitized"
             },
             "related": []
         },
@@ -782,7 +782,7 @@
             "chapterNr": "5",
             "nr": "23",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Auto escaping technology always applies HTML sanitization"
             },
             "related": []
         },
@@ -790,7 +790,7 @@
             "chapterNr": "5",
             "nr": "24",
             "shortTitle": {
-                "en": "TODO"
+                "en": "DOM writes use safe JavaScript methods"
             },
             "related": []
         },
@@ -798,7 +798,7 @@
             "chapterNr": "5",
             "nr": "25",
             "shortTitle": {
-                "en": "TODO"
+                "en": "JSON is properly parsed by browser"
             },
             "related": []
         },
@@ -806,7 +806,7 @@
             "chapterNr": "5",
             "nr": "26",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Data is cleared from client storage on session termination"
             },
             "related": []
         },
@@ -870,7 +870,7 @@
             "chapterNr": "7",
             "nr": "11",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Cryptographic processes are isolated"
             },
             "related": []
         },
@@ -878,7 +878,7 @@
             "chapterNr": "7",
             "nr": "12",
             "shortTitle": {
-                "en": "TODO"
+                "en": "PII is encrypted at rest and protected during communication"
             },
             "related": []
         },
@@ -886,7 +886,7 @@
             "chapterNr": "7",
             "nr": "13",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Keys and secrets are zeroed when destroyed"
             },
             "related": []
         },
@@ -894,7 +894,7 @@
             "chapterNr": "7",
             "nr": "14",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Secrets are replaceable and placed at installation"
             },
             "related": []
         },
@@ -902,7 +902,7 @@
             "chapterNr": "7",
             "nr": "15",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Random numbers are sufficiently random even under load"
             },
             "related": []
         },
@@ -1007,7 +1007,7 @@
             "chapterNr": "8",
             "nr": "12",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Logs are stored differently and rotated"
             },
             "related": []
         },
@@ -1103,7 +1103,7 @@
             "chapterNr": "9",
             "nr": "9",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Client side storage does not contain secrets"
             },
             "related": []
         },
@@ -1111,7 +1111,7 @@
             "chapterNr": "9",
             "nr": "10",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Accessing sensitive data is logged"
             },
             "related": []
         },
@@ -1119,7 +1119,7 @@
             "chapterNr": "9",
             "nr": "11",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Sensitive data is rapidly sanitized from memory"
             },
             "related": []
         },
@@ -1199,7 +1199,7 @@
             "chapterNr": "10",
             "nr": "10",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Certificate pinning is used correctly"
             },
             "related": []
         },
@@ -1207,7 +1207,7 @@
             "chapterNr": "10",
             "nr": "11",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Strict Transport Security is used correctly"
             },
             "related": []
         },
@@ -1215,7 +1215,7 @@
             "chapterNr": "10",
             "nr": "12",
             "shortTitle": {
-                "en": "TODO"
+                "en": "URL is submitted to HSTS preload lists"
             },
             "related": []
         },
@@ -1223,7 +1223,7 @@
             "chapterNr": "10",
             "nr": "13",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Forward secrecy ciphers are used"
             },
             "related": []
         },
@@ -1231,7 +1231,7 @@
             "chapterNr": "10",
             "nr": "14",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Certification revocation is enabled and configured"
             },
             "related": []
         },
@@ -1239,7 +1239,7 @@
             "chapterNr": "10",
             "nr": "15",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Strong certificate hierarchy"
             },
             "related": []
         },
@@ -1247,21 +1247,13 @@
             "chapterNr": "10",
             "nr": "16",
             "shortTitle": {
-                "en": "TODO"
+                "en": "TLS settings are current"
             },
             "related": []
         },
         {
             "chapterNr": "11",
             "nr": "1",
-            "shortTitle": {
-                "en": "TODO"
-            },
-            "related": []
-        },
-        {
-            "chapterNr": "11",
-            "nr": "2",
             "shortTitle": {
                 "en": "Only defined HTTP Request methods are accepted"
             },
@@ -1278,7 +1270,7 @@
         },
         {
             "chapterNr": "11",
-            "nr": "3",
+            "nr": "2",
             "shortTitle": {
                 "en": "Every HTTP Response contains a Content-Type header with safe character set"
             },
@@ -1295,9 +1287,17 @@
         },
         {
             "chapterNr": "11",
+            "nr": "3",
+            "shortTitle": {
+                "en": "Trusted HTTP headers are authenticated"
+            },
+            "related": []
+        },
+        {
+            "chapterNr": "11",
             "nr": "4",
             "shortTitle": {
-                "en": "TODO"
+                "en": "X-Frame-Options is used correctly"
             },
             "related": []
         },
@@ -1305,7 +1305,7 @@
             "chapterNr": "11",
             "nr": "5",
             "shortTitle": {
-                "en": "TODO"
+                "en": "X-Content-Type-Options is used correctly"
             },
             "related": []
         },
@@ -1321,7 +1321,7 @@
             "chapterNr": "11",
             "nr": "7",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Content-Security-Policy is used correctly"
             },
             "related": []
         },
@@ -1329,14 +1329,9 @@
             "chapterNr": "11",
             "nr": "8",
             "shortTitle": {
-                "en": "Protects against Click-Jacking"
+                "en": "X-XSS-Protection is used correctly"
             },
-            "related": [
-                {
-                    "name": "OWASP: Clickjacking",
-                    "url": "https://www.owasp.org/index.php/Clickjacking"
-                }
-            ]
+            "related": []
         },
         {
             "chapterNr": "11",
@@ -1875,7 +1870,7 @@
             "chapterNr": "18",
             "nr": "1",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Web Service client and server use same encoding"
             },
             "related": []
         },
@@ -1883,7 +1878,7 @@
             "chapterNr": "18",
             "nr": "2",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Web Service admin is limited to admins"
             },
             "related": []
         },
@@ -1891,7 +1886,7 @@
             "chapterNr": "18",
             "nr": "3",
             "shortTitle": {
-                "en": "TODO"
+                "en": "XML or JSON schemas are used properly"
             },
             "related": []
         },
@@ -1899,7 +1894,7 @@
             "chapterNr": "18",
             "nr": "4",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Input is size limited"
             },
             "related": []
         },
@@ -1907,7 +1902,7 @@
             "chapterNr": "18",
             "nr": "5",
             "shortTitle": {
-                "en": "TODO"
+                "en": "SOAP services comply to WS-I Basic Profile"
             },
             "related": []
         },
@@ -1915,7 +1910,7 @@
             "chapterNr": "18",
             "nr": "6",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Session based authentication and authorization is used"
             },
             "related": []
         },
@@ -1923,7 +1918,7 @@
             "chapterNr": "18",
             "nr": "7",
             "shortTitle": {
-                "en": "TODO"
+                "en": "REST service is not vulnerable to CSRF"
             },
             "related": []
         },
@@ -1931,7 +1926,7 @@
             "chapterNr": "18",
             "nr": "8",
             "shortTitle": {
-                "en": "TODO"
+                "en": "REST service verifies Content-Type"
             },
             "related": []
         },
@@ -1939,7 +1934,7 @@
             "chapterNr": "18",
             "nr": "9",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Message payload is signed"
             },
             "related": []
         },
@@ -1947,7 +1942,7 @@
             "chapterNr": "18",
             "nr": "10",
             "shortTitle": {
-                "en": "TODO"
+                "en": "No alternative (insecure) access paths"
             },
             "related": []
         },
@@ -1955,7 +1950,7 @@
             "chapterNr": "19",
             "nr": "1",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Components are stripped, up-to-date and securely configured"
             },
             "related": []
         },
@@ -1963,7 +1958,7 @@
             "chapterNr": "19",
             "nr": "2",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Communication between components is encrypted"
             },
             "related": []
         },
@@ -1971,7 +1966,7 @@
             "chapterNr": "19",
             "nr": "3",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Communication between components is authenticated with least privileges"
             },
             "related": []
         },
@@ -1979,7 +1974,7 @@
             "chapterNr": "19",
             "nr": "4",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Deployments are adequately sandboxed, containerized or isolated"
             },
             "related": []
         },
@@ -1987,7 +1982,7 @@
             "chapterNr": "19",
             "nr": "5",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Deployment processes are secure"
             },
             "related": []
         },
@@ -1995,7 +1990,7 @@
             "chapterNr": "19",
             "nr": "6",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Admins can verify integrity of configuration"
             },
             "related": []
         },
@@ -2003,7 +1998,7 @@
             "chapterNr": "19",
             "nr": "7",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Application components are signed"
             },
             "related": []
         },
@@ -2011,7 +2006,7 @@
             "chapterNr": "19",
             "nr": "8",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Thrid party components come from trusted repos"
             },
             "related": []
         },
@@ -2019,7 +2014,7 @@
             "chapterNr": "19",
             "nr": "9",
             "shortTitle": {
-                "en": "TODO"
+                "en": "Security flags are enabled"
             },
             "related": []
         }
