@@ -42,7 +42,7 @@
             "chapterNr": "1",
             "nr": "3",
             "shortTitle": {
-                "en": "A high-level architecture as been defined"
+                "en": "A high-level architecture has been defined"
             },
             "related": []
         },
@@ -99,6 +99,14 @@
             "nr": "10",
             "shortTitle": {
                 "en": "Client side logic does not contain secrets"
+            },
+            "related": []
+        },
+        {
+            "chapterNr": "1",
+            "nr": "11",
+            "shortTitle": {
+                "en": "No known vulnerabilities"
             },
             "related": []
         },
@@ -361,6 +369,14 @@
             "related": []
         },
         {
+            "chapterNr": "2",
+            "nr": "33",
+            "shortTitle": {
+                "en": "Password managers are usable"
+            },
+            "related": []
+        },
+        {
             "chapterNr": "3",
             "nr": "1",
             "shortTitle": {
@@ -549,7 +565,7 @@
             "chapterNr": "4",
             "nr": "9",
             "shortTitle": {
-                "en": "Access control rules are enfoced server side"
+                "en": "Access control rules are enforced server side"
             },
             "related": []
         },
@@ -646,7 +662,7 @@
             "chapterNr": "5",
             "nr": "5",
             "shortTitle": {
-                "en": "Input validation or encoding is performed and enforced on the server side."
+                "en": "Server side validation or encoding"
             },
             "related": []
         },
@@ -718,7 +734,7 @@
             "chapterNr": "5",
             "nr": "15",
             "shortTitle": {
-                "en": "TODO"
+                "en": "XSS"
             },
             "related": []
         },
@@ -1015,7 +1031,7 @@
             "chapterNr": "8",
             "nr": "13",
             "shortTitle": {
-                "en": "Non-printable symbols and field separators are properly encoded in logs"
+                "en": "Time sources are synchronized"
             },
             "related": []
         },
@@ -1622,7 +1638,7 @@
             "chapterNr": "16",
             "nr": "8",
             "shortTitle": {
-                "en": "Deny access to resources or systems outside web or app server"
+                "en": "Does not execute uploaded data from untrusted sources"
             },
             "related": []
         },
@@ -1630,15 +1646,7 @@
             "chapterNr": "16",
             "nr": "9",
             "shortTitle": {
-                "en": "Does not execute uploaded data from untrusted sources"
-            },
-            "related": []
-        },
-        {
-            "chapterNr": "16",
-            "nr": "10",
-            "shortTitle": {
-                "en": "RIA cross domain resource sharing configuration"
+                "en": "Does not use non-native web technology"
             },
             "related": []
         },
@@ -1726,7 +1734,7 @@
             "chapterNr": "17",
             "nr": "11",
             "shortTitle": {
-                "en": "App binary has been obfuscated"
+                "en": "App validates input"
             },
             "related": []
         },
