@@ -127,7 +127,7 @@
             "chapterNr": "2",
             "nr": "2",
             "shortTitle": {
-                "en": "Password fields"
+                "en": "No pre-filling"
             },
             "related": []
         },
@@ -300,7 +300,7 @@
             "chapterNr": "2",
             "nr": "24",
             "shortTitle": {
-                "en": "No \"secret\" questions"
+                "en": "No unsafe \"secret\" questions"
             },
             "related": []
         },
@@ -662,7 +662,7 @@
             "chapterNr": "5",
             "nr": "5",
             "shortTitle": {
-                "en": "Server side validation or encoding"
+                "en": "Input validation is enforced on the server side"
             },
             "related": []
         },
@@ -718,7 +718,7 @@
             "chapterNr": "5",
             "nr": "13",
             "shortTitle": {
-                "en": "XXE"
+                "en": "File inclusion"
             },
             "related": []
         },
