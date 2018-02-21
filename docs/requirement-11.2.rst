@@ -63,7 +63,7 @@ Example of a system responding to a non-standard HTTP verb:
     * Connection #0 to host www.owasp.org left intact
     * Closing connection #0
 
-Example of a system responding the the appropriate error code:
+Example of a system responding with the appropriate error code:
 
 ::
 
