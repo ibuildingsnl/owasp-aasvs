@@ -1,9 +1,0 @@
-v15 Business logic verification requirements
-============================================
-
-.. toctree::
-  :maxdepth: 1
-  :titlesonly:
-
-  requirement-15.1
-  requirement-15.2

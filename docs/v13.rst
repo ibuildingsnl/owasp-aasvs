@@ -1,9 +1,0 @@
-v13 Malicious controls verification requirements
-================================================
-
-.. toctree::
-  :maxdepth: 1
-  :titlesonly:
-
-  requirement-13.1
-  requirement-13.2

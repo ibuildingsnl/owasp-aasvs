@@ -1,8 +1,0 @@
-v14 Internal security verification requirements
-===============================================
-
-.. toctree::
-  :maxdepth: 1
-  :titlesonly:
-
-  

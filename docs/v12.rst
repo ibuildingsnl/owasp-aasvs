@@ -1,8 +1,0 @@
-v12 Security configuration verification requirements
-====================================================
-
-.. toctree::
-  :maxdepth: 1
-  :titlesonly:
-
-  
