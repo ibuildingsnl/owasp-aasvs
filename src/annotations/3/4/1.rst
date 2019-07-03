@@ -1,0 +1,22 @@
+---
+PHP
+---
+
+Make sure the following INI settings are set to 1 (true):
+
+.. code-block:: ini
+
+    ini_set('session.cookie_secure', 1);
+
+
+-------
+Symfony
+-------
+
+The `cookie_secure <https://symfony.com/doc/current/reference/configuration/framework.html#cookie-secure>`_ configuration option should be set to `true`.
+
+-------
+Laravel
+-------
+
+In `config/session.php` the option `secure` should be set to true.

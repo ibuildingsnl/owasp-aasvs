@@ -1,0 +1,5 @@
+Note: The goal of allowing the user to view their password or see the last character temporarily is to improve the
+usability of credential entry, particularly around the use of longer passwords, passphrases, and password
+managers. Another reason for including the requirement is to deter or prevent test reports unnecessarily requiring
+organizations to override native platform password field behavior to remove this modern user-friendly security
+experience.

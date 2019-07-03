@@ -1,0 +1,19 @@
+---
+PHP
+---
+
+Since PHP 7.3 you can set the cookie_samesite_ option in the INI configuration. Set it to `lax` or `strict` 
+
+.. _cookie_samesite: https://www.php.net/manual/en/session.configuration.php#ini.session.cookie-samesite
+
+-------
+Symfony
+-------
+
+The `cookie_samesite <https://symfony.com/doc/current/reference/configuration/framework.html#cookie-httponly>`_ configuration option should be set to either `lax` or `strict`.
+
+-------
+Laravel
+-------
+
+In `config/session.php` you can set the option `same_site` to either `lax` or `strict`

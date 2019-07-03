@@ -1,0 +1,17 @@
+-------
+Symfony
+-------
+
+You can use the `NotCompromisedPassword <https://symfony.com/doc/current/reference/constraints/NotCompromisedPassword.html>`_ constraint.
+
+-------
+Laravel
+-------
+
+For Laravel you can use the `Pwned Validator <https://github.com/valorin/pwned-validator>`_
+
+------
+Drupal
+------
+
+For Drupal 8 there is the `Pwned Passwords <https://www.drupal.org/project/pwned_passwords>`_ module, and for Drupal 7 the `Password HaveIBeenPwned <https://www.drupal.org/project/password_haveibeenpwned>`_ module.

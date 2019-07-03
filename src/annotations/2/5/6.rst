@@ -1,0 +1,5 @@
+-------
+General
+-------
+
+TOTP: `Time-based One-time Password <https://en.wikipedia.org/wiki/Time-based_One-time_Password_algorithm>`_

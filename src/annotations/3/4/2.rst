@@ -1,0 +1,22 @@
+---
+PHP
+---
+
+Make sure the following INI settings are set to 1 (or "On"):
+
+.. code-block:: ini
+
+    ini_set('session.cookie_httponly', 1);
+
+
+-------
+Symfony
+-------
+
+The `cookie_httponly <https://symfony.com/doc/current/reference/configuration/framework.html#cookie-httponly>`_ configuration option should be set to `true`.
+
+-------
+Laravel
+-------
+
+In `config/session.php` the option `httponly` should be set to true.
